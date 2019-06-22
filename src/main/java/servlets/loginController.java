@@ -27,7 +27,7 @@ public class loginController extends HttpServlet {
         {
             req.getSession().setAttribute("login", login);
             req.getSession().setAttribute("logged", true);
-            resp.sendRedirect( req.getContextPath() + "/user/todo"); //без слеша надо было. ты тут? да, спасибо!
+            resp.sendRedirect( req.getContextPath() + "/user/todo");
         }
         else
         {
