@@ -1,9 +1,0 @@
-services\TODOService.class
-servlets\loginController.class
-filter\LoginFilter.class
-servlets\user\TODOController.class
-services\LoginService.class
-repositories\UserRepository.class
-model\TODO.class
-model\User.class
-repositories\TODORepository.class
